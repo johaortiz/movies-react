@@ -1,14 +1,12 @@
-/*Coding... :)
-export function App(){
+import { Link } from "react-router-dom";
+import styles from '../styles/App.module.css';
+
+export function Nav(){
     return <>
         <nav>
-        <ul>
-            <li>Home</></li>
-            <li>About</></li>
-            <li>Contact</></li>
-        </ul>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
         </nav>
+        <Link to="/"><h1 className={styles.title} >Movies</h1></Link>
     </>
 }
-
-*/
