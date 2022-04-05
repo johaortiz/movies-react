@@ -4,7 +4,7 @@ This project was my first project, please, enjoy! :D
 
 ## Technologies
 
-React  ---  React-Router-Dom  ---  
+React  ---  React-Router-Dom  ---  React Hooks  ---  
 NodeJs
 
 # Getting Started with Create React App
