@@ -1,7 +1,11 @@
+import { useSearchQuery } from "../../hooks/useSearchQuery";
 import { Cards } from "../Cards";
 
-export function PrincipalPage(){
+export function PrincipalPage() {
+
+    const debouncedValue = useSearchQuery();
+
     return <>
-        <Cards />
+        <Cards key={debouncedValue} search={debouncedValue}/>
     </>
 }

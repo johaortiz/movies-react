@@ -1,8 +1,11 @@
 import styles from '../styles/Card.module.css';
 import { Link } from 'react-router-dom';
+import No_image_available from '../assets/No_image_available.png';
+import { getImage } from '../utils/clientHttps';
 
 export function Card( {movie} ) {
-    const imageUrl = `https://image.tmdb.org/t/p/w300${movie.poster_path}`;
+
+    const imageUrl = getImage("300", movie);
 
     return <li className={styles.card}>
             <Link to={`movie/${movie.id}`}>
@@ -10,7 +13,7 @@ export function Card( {movie} ) {
                     width={230} 
                     height={345} 
                     className={styles.cardImage} 
-                    src={imageUrl} 
+                    src={imageUrl.length > 36 ? imageUrl : No_image_available } 
                     alt={movie.title}
                 />
                 <div>{movie.title}</div>
