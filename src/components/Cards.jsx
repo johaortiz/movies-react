@@ -8,7 +8,7 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 export function Cards({ search }) {
 
     const [movies, setPage, hasMore] = useMovies(search);
-    
+
 
     return (
         <InfiniteScroll
