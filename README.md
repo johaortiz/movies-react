@@ -5,7 +5,7 @@
 
 # Objetives
 
-### `Learn about hooks`
+Learn about hooks
 ### `Learn how to configure and use Redux toolkit`
 ### `Use pure css`
 ### `How to consume an api, with token verification`
