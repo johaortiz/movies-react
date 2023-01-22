@@ -1,12 +1,18 @@
 ## Hi!!
 
-### `This project was my first project, please enjoy!`
+### `This was my first project `
+
+
+# Objetives
+
+### `Learn about hooks`
+### `Learn how to configure and use Redux toolkit`
+### `Use pure css`
+### `How to consume an api, with token verification`
 
 ## Technologies
 
-### `React  ---  React-Router-Dom  ---  React Hooks  ---  NodeJs`
-
-# Developing...
+### `React, Redux, ModuleCss, React-Router-Dom, Infinite Scroll`
 
 ### `...`
 
