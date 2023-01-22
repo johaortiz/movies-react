@@ -9,4 +9,8 @@ This was my first project
 - How to consume an api, with token verification.
 
 ## Technologies
-- React, Redux, ModuleCss, React-Router-Dom, Infinite Scroll
+- React
+- Redux
+- ModuleCss
+- React-Router-Dom
+- Infinite Scroll
