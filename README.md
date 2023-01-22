@@ -1,8 +1,8 @@
-## Hi!!
+# Hello World!
 This was my first project
 
 
-# Objetives
+## Objetives
 Learn about hooks
 Learn how to configure and use Redux toolkit
 Use pure css
