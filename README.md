@@ -11,6 +11,6 @@ This was my first project
 ## Technologies
 - React
 - Redux
-- ModuleCss
+- Module Css
 - React-Router-Dom
 - Infinite Scroll
